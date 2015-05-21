@@ -1,0 +1,231 @@
+
+
+@charset "UTF-8";
+
+body {
+
+  font-weight: 400;
+  font-size: 24px;
+  background: #42bd41;
+    background-image: url("../images/cali.jpg");
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%
+  -webkit-text-size-adjust: none;
+    overflow-x: hidden;
+ 
+}
+
+.title{
+  font-family: 'Roboto Slab', sans-serif; 
+  text-align: center;
+}
+
+#menu-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #111;
+  border-radius: 5px;
+  z-index: 200;
+}
+#menu-button:after {
+  position: absolute;
+  content: "☰";
+  font-size: 42px;
+  color: #FFF;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+#menu-button:hover {
+  opacity: .8;
+}
+
+#menu-button.on:after {
+  content: "x";
+}
+
+#overlay {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#overlay.open {
+  display: block;
+}
+
+#hamburger-menu {
+  height: 0;
+  width: 0;
+  background: #111;
+  position: fixed;
+  top: 20px;
+  left: 90px;
+  z-index: 101;
+  overflow: hidden;
+  border-radius: 5px;
+}
+#hamburger-menu nav {
+  padding: 10px;
+  z-index: 101;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#hamburger-menu nav a {
+  display: block;
+  padding: 10px;
+  height: 2em;
+  color: #CCC;
+  font-size: 1em;
+  line-height: 1em;
+  text-decoration: none;
+  overflow: hidden;
+}
+#hamburger-menu nav a:hover {
+  cursor: pointer;
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.links{
+  margin-bottom: 10px;
+}
+
+
+a:hover {
+  color: #ffd366;
+}
+
+.inner {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.activity {
+  padding: 0;
+  margin: 2em 0;
+  list-style: none;
+
+}
+.activity li {
+  -webkit-transition: box-shadow 0.2s ease;
+  -moz-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  color: #ffb600;
+  display: inline-block;
+  font-size: .889em;
+  height: 15em;
+  margin: 0 1em 1em;
+  position: relative;
+  text-align: center;
+  text-transform: lowercase;
+  width: 15em;
+  line-height: 15em;
+}
+.activity li a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.activity li:hover {
+  box-shadow: 0 0 0 7px #fff;
+}
+.activity li:hover:before {
+  -webkit-transform: scale(0.925);
+  -moz-transform: scale(0.925);
+  -ms-transform: scale(0.925);
+  -o-transform: scale(0.925);
+  transform: scale(0.925);
+  box-shadow: 0 0 0 1px #fff;
+  opacity: .5;
+}
+.activity li:before {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+  bottom: 0;
+  box-shadow: 0 0 0 1px #fff;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.todo{
+	background-image: url("../images/todo.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%
+	-webkit-text-size-adjust: none;
+  	overflow-x: hidden;
+  	text-align: center;
+}
+
+.insta{
+	background-image: url("../images/insta.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%
+	-webkit-text-size-adjust: none;
+  	overflow-x: hidden;
+  	text-align: center;
+}
+
+.nauts{
+	background-image: url("../images/nauts.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%
+	-webkit-text-size-adjust: none;
+  	overflow-x: hidden;
+  	text-align: center;
+  	color: #ffb600;
+   text-decoration: none;
+}
+
+.blog{
+	background-image: url("../images/blog.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%
+	-webkit-text-size-adjust: none;
+  	overflow-x: hidden;
+  	text-align: center;
+  	color: #ffb600;
+   text-decoration: none;
+}
