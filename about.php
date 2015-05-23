@@ -3,7 +3,7 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/home.css"> 
+	<link rel="stylesheet" type="text/css" href="css/about.css"> 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<title>Tristan Whitaker</title>
@@ -25,7 +25,10 @@
   <div id="overlay"></div>
 </div>
 <div class="description">
-		Designer and Coder
+		Born and raised in Pasadena I was raised by two artists and grew up 
+		in a very cultural city and visited many mesuems and art galleries.
+		This exposure to art has given me a keen eye for design.
+		As well as aa designer I am a coder who prides myself in wellmade,functional, and beautiful websites.	
 	</div>
 </body>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

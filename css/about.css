@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   background: #42bd41;
-    background-image: url("../images/cali.jpg");
+    background-image: url("../images/mountain.jpg");
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,8 +27,10 @@ font-family: 'Vollkorn', serif;
 .description{
     font-family: 'Roboto Slab', sans-serif; 
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 5px;
+  max-width: 700px;
+  margin-left: 320px;
 }
 
 #menu-button {

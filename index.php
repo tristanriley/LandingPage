@@ -16,7 +16,7 @@
   <div id="hamburger-menu">
     <nav>
       <a class="links" href="http://localhost/landingpage/home.php">Home</a>
-      <a class="links" href="">About</a>
+      <a class="links" href="http://localhost/landingpage/about.php">About</a>
       <a class="links" href="http://localhost/landingpage/index.php">Works</a>
       <a class="links" href="">Contact</a>
     </nav>
@@ -28,16 +28,16 @@
 	  <div class="inner">
 	    <ul class="activity">
 	      <li class="blog">
-	        <a href="http://localhost/blogproject/home.php">Blog project</a>
+	        <a href="http://localhost/blogproject/home.php"></a>
 	      </li>
 	      <li class="todo">
-	        <a href="http://localhost/todo-list2/home.php">Todo-List</a>
+	        <a href="http://localhost/todo-list2/home.php"></a>
 	      </li>
 	      <li class="nauts">
-	        <a href="http://localhost/Awesomenauts/index.php">Awesomenauts</a>
+	        <a href="http://localhost/Awesomenauts/index.php"></a>
 	      </li>
 	      <li class="insta">
-	        <a href="http://localhost/app_api/index.php">InstagramAPI</a>
+	        <a href="http://localhost/app_api/index.php"></a>
 	      </li>
 	    </ul>
 	  </div>

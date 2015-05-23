@@ -7,7 +7,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   background: #42bd41;
-    background-image: url("../images/cali.jpg");
+    background-image: url("../images/boardwalk.jpg");
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -22,6 +22,8 @@ body {
 .title{
   font-family: 'Roboto Slab', sans-serif; 
   text-align: center;
+  margin-top: 30px;
+  color: black;
 }
 
 #menu-button {
@@ -115,6 +117,7 @@ a:hover {
 .inner {
   width: 600px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .activity {
@@ -175,16 +178,9 @@ a:hover {
 }
 
 .todo{
-	background-image: url("../images/todo.png");
+	background-image: url("../images/todo.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-  	background-size: cover;
-	background-attachment: fixed;
-	min-height: 100%
-	-webkit-text-size-adjust: none;
-  	overflow-x: hidden;
-  	text-align: center;
 }
 
 .insta{
@@ -193,10 +189,8 @@ a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
   	background-size: cover;
-	background-attachment: fixed;
-	min-height: 100%
-	-webkit-text-size-adjust: none;
-  	overflow-x: hidden;
+
+
   	text-align: center;
 }
 
@@ -204,28 +198,12 @@ a:hover {
 	background-image: url("../images/nauts.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-  	background-size: cover;
-	background-attachment: fixed;
-	min-height: 100%
-	-webkit-text-size-adjust: none;
-  	overflow-x: hidden;
-  	text-align: center;
-  	color: #ffb600;
-   text-decoration: none;
+	
 }
 
 .blog{
-	background-image: url("../images/blog.png");
+	background-image: url("../images/blo.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-  	background-size: cover;
-	background-attachment: fixed;
-	min-height: 100%
-	-webkit-text-size-adjust: none;
-  	overflow-x: hidden;
-  	text-align: center;
-  	color: #ffb600;
-   text-decoration: none;
+
 }
